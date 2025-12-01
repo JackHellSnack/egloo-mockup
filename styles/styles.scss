@@ -19,7 +19,7 @@
 .container {
   max-width: 1536px * 1;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 /* 2xl */
@@ -64,10 +64,6 @@
     .logo-container {
     width: 30%;
   }
-
-  .card-wide {
-    grid-column: span 2;
-  }
 }
 
 /* sm */
@@ -75,10 +71,6 @@
   .main-nav,
   .container {
     max-width: 475px * 1;
-  }
-
-  .card-wide {
-    grid-column: span 2;
   }
 }
 
@@ -88,8 +80,5 @@
   .container {
     padding: 0.5rem;
 
-  }
-  .card-wide {
-    grid-column: span 2;
   }
 }
