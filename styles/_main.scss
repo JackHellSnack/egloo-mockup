@@ -1,0 +1,46 @@
+@use "vars";
+
+/* main styles */
+
+body {
+  background: vars.$primary-color;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+li::marker {
+  content: "";
+  font-size: 1em;
+  background-color: #f4f3ed;
+}
+
+/* main section intro */
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  margin-top: 8rem;
+}
+
+.intro-section h1 {
+  font-family: "MinervaModern", serif;
+  font-weight: 400;
+  color: #111;
+  margin: 0 0 0.5em 0;
+  font-size: 4rem;
+}
+
+.intro-section h2,
+.intro-section h3 {
+  font-family: "MinervaModern", serif;
+  font-weight: 600;
+  color: #404040;
+  margin: 0 0 0.5em 0;
+  font-size: 1.5rem;
+}

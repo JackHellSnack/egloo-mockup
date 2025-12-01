@@ -1,220 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Egloo Mockup html</title>
-    <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <style>
-      @font-face {
-        font-family: "MinervaModern";
-        src: url("fonts/MinervaModern-Regular.otf") format("opentype");
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-      }
 
-      @font-face {
-        font-family: "MinervaModern";
-        src: url("fonts/MinervaModern-Regular.otf") format("opentype");
-        font-weight: 700;
-        font-style: normal;
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: "Britanica";
-        src: url("fonts/Britanica.otf") format("opentype");
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-      }
-
-      @font-face {
-        font-family: "Britanica";
-        src: url("fonts/Britanica-ExtraBold.otf") format("opentype");
-        font-weight: 700;
-        font-style: normal;
-        font-display: swap;
-      }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <header class="site-header">
-      <nav class="main-nav">
-        <ul class="nav-left">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle"
-              >IDENTITÀ
-              <span aria-hidden="true">
-                <img class="arrow-down"
-                  src="resources/arrow-down.svg"
-
-                />
-              </span>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Chi siamo</a></li>
-              <li><a href="#">Storia</a></li>
-              <li><a href="#">Filosofia</a></li>
+        <nav class="main-nav">
+            <ul class="nav-left">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">IDENTITÀ
+                        <span aria-hidden="true">
+                            <img class="arrow-down" src="resources/arrow-down.svg" />
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Chi siamo</a></li>
+                        <li><a href="#">Storia</a></li>
+                        <li><a href="#">Filosofia</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">VINI</a></li>
+                <li><a href="#">DEVIN COSMETICA</a></li>
             </ul>
-          </li>
-          <li><a href="#">VINI</a></li>
-          <li><a href="#">DEVIN COSMETICA</a></li>
-        </ul>
-        <div class="logo-container">
-          <img src="resources/google.svg" alt="Logo Google" class="site-logo" />
-        </div>
-        <ul class="nav-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle"
-              >ESPERIENZA
-              <span aria-hidden="true">
-                <img class="arrow-down"
-                  src="resources/arrow-down.svg"
-                  alt="Arrow Down icon"
- 
-                />
-              </span>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Visite</a></li>
-              <li><a href="#">Eventi</a></li>
-              <li><a href="#">Degustazioni</a></li>
+            <div class="logo-container">
+                <img src="resources/google.svg" alt="Logo Google" class="site-logo" />
+            </div>
+            <ul class="nav-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">ESPERIENZA
+                        <span aria-hidden="true">
+                            <img class="arrow-down" src="resources/arrow-down.svg" alt="Arrow Down icon" />
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Visite</a></li>
+                        <li><a href="#">Eventi</a></li>
+                        <li><a href="#">Degustazioni</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">GIFT CARD</a></li>
+                <li><a href="#">STORE LOCATOR</a></li>
+                <li class="dropdown language-dropdown">
+                    <a href="#" class="dropdown-toggle" aria-label="Seleziona lingua">
+                        <span class="earth-icon" aria-hidden="true">
+                            <img src="resources/globe.svg" alt="Wine Glass Icon" width="20" height="20" />
+                        </span>
+                        IT
+                        <span aria-hidden="true">
+                            <img class="arrow-down" src="resources/arrow-down.svg" alt="Arrow Down icon" />
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">EN</a></li>
+                        <li><a href="#">FR</a></li>
+                        <li><a href="#">DE</a></li>
+                    </ul>
+                </li>
             </ul>
-          </li>
-          <li><a href="#">GIFT CARD</a></li>
-          <li><a href="#">STORE LOCATOR</a></li>
-          <li class="dropdown language-dropdown">
-            <a href="#" class="dropdown-toggle" aria-label="Seleziona lingua">
-              <span class="earth-icon" aria-hidden="true">
-                <img
-                  src="resources/globe.svg"
-                  alt="Wine Glass Icon"
-                  width="20"
-                  height="20"
-                />
-              </span>
-              IT
-              <span aria-hidden="true">
-                <img class="arrow-down"
-                  src="resources/arrow-down.svg"
-                  alt="Arrow Down icon"
-                />
-              </span>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="#">EN</a></li>
-              <li><a href="#">FR</a></li>
-              <li><a href="#">DE</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
+        </nav>
 
-      <nav class="main-nav nav-mobile">
-        <div class="logo-container">
-          <img src="resources/google.svg" alt="Logo Google" class="site-logo" />
-        </div>
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle">
-            <span aria-hidden="true">
-              <img
-                src="resources/arrow-down.svg"
-                alt="Arrow Down icon"
-                width="10"
-                height="10"
-              />
-            </span>
-          </a>
-
-          <ul class="dropdown-menu dropdown-big">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle"
-                >IDENTITÀ
-                <span aria-hidden="true">
-                  <img
-                    src="resources/arrow-down.svg"
-                    alt="Arrow Down icon"
-                    width="10"
-                    height="10"
-                  />
-                </span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Chi siamo</a></li>
-                <li><a href="#">Storia</a></li>
-                <li><a href="#">Filosofia</a></li>
-              </ul>
-            </li>
-            <li><a href="#">VINI</a></li>
-            <li><a href="#">DEVIN COSMETICA</a></li>
+        <nav class="main-nav nav-mobile">
+            <div class="logo-container">
+                <img src="resources/google.svg" alt="Logo Google" class="site-logo" />
+            </div>
 
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle"
-                >ESPERIENZA
-                <span aria-hidden="true">
-                  <img
-                    src="resources/arrow-down.svg"
-                    alt="Arrow Down icon"
-                    width="10"
-                    height="10"
-                  />
-                </span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Visite</a></li>
-                <li><a href="#">Eventi</a></li>
-                <li><a href="#">Degustazioni</a></li>
-              </ul>
+                <a href="#" class="dropdown-toggle">
+                    <span aria-hidden="true">
+                        <img src="resources/arrow-down.svg" alt="Arrow Down icon" width="10" height="10" />
+                    </span>
+                </a>
+
+                <ul class="dropdown-menu dropdown-big">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">IDENTITÀ
+                            <span aria-hidden="true">
+                                <img src="resources/arrow-down.svg" alt="Arrow Down icon" width="10" height="10" />
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Chi siamo</a></li>
+                            <li><a href="#">Storia</a></li>
+                            <li><a href="#">Filosofia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">VINI</a></li>
+                    <li><a href="#">DEVIN COSMETICA</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">ESPERIENZA
+                            <span aria-hidden="true">
+                                <img src="resources/arrow-down.svg" alt="Arrow Down icon" width="10" height="10" />
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Visite</a></li>
+                            <li><a href="#">Eventi</a></li>
+                            <li><a href="#">Degustazioni</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">GIFT CARD</a></li>
+                    <li><a href="#">STORE LOCATOR</a></li>
+                    <li class="dropdown language-dropdown">
+                        <a href="#" class="dropdown-toggle" aria-label="Seleziona lingua">
+                            <span class="earth-icon" aria-hidden="true">
+                                <img src="resources/globe.svg" alt="Wine Glass Icon" width="20" height="20" />
+                            </span>
+                            IT
+                            <span aria-hidden="true">
+                                <img src="resources/arrow-down.svg" alt="Arrow Down icon" width="10" height="10" />
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">EN</a></li>
+                            <li><a href="#">FR</a></li>
+                            <li><a href="#">DE</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </li>
-            <li><a href="#">GIFT CARD</a></li>
-            <li><a href="#">STORE LOCATOR</a></li>
-            <li class="dropdown language-dropdown">
-              <a href="#" class="dropdown-toggle" aria-label="Seleziona lingua">
-                <span class="earth-icon" aria-hidden="true">
-                  <img
-                    src="resources/globe.svg"
-                    alt="Wine Glass Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                IT
-                <span aria-hidden="true">
-                  <img
-                    src="resources/arrow-down.svg"
-                    alt="Arrow Down icon"
-                    width="10"
-                    height="10"
-                  />
-                </span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="#">EN</a></li>
-                <li><a href="#">FR</a></li>
-                <li><a href="#">DE</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </nav>
+        </nav>
     </header>
 
     <main class="container">
-      <div class="main-content">
-        <!-- HERO SECTION -->
-        <section class="intro-section">
-          <h1>Prenota subito l’esperienza più adatta a te!</h1>
-          <h3>
-            Ti aspettiamo per farti scoprire il mondo, raccontato dai nostri
-            vini e dalla nostra storia.
-          </h3>
-        </section>
+        <div class="main-content">
+            <!-- HERO SECTION -->
+            <section class="intro-section">
+                <h1>Prenota subito l’esperienza più adatta a te!</h1>
+                <h3>
+                    Ti aspettiamo per farti scoprire il mondo, raccontato dai nostri
+                    vini e dalla nostra storia.
+                </h3>
+            </section>
 
-        <!--
+            <!--
             
             
             
@@ -226,438 +153,323 @@
             
             -->
 
-        <section class="card-flex">
-          <article class="card">
-            <div class="card-image">
-              <img src="resources/screenshot.png" alt="3 WINES EXPERIENCE" />
-            </div>
+            <section class="card-flex">
 
-            <div class="card-info">
-              <div class="card-icons">
-                <span class="icon-glass" title="Wine Tasting">
-                  <img
-                    src="resources/glass.svg"
-                    alt="Wine Glass Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-fork" title="Wine Tasting">
-                  <img
-                    src="resources/fork.svg"
-                    alt="Fork Knife Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-clock" title="Duration">
-                  <img
-                    src="resources/clock.svg"
-                    alt="Clock Icon"
-                    width="20"
-                    height="20"
-                  />
-                  <span class="card-duration">60’</span>
-                </span>
-              </div>
 
-              <h3 class="card-title">3 WINES EXPERIENCE</h3>
-              <hr class="card-divider" />
-              <p class="card-description">
-                Degustazione di tre vini al Rifugio del Vino e visita alla
-                cantina e alla cantina
-              </p>
-              <span class="card-prezzo">PREZZO</span>
-              <div class="card-price-row">
-                <span class="card-amount">€25,00 a persona</span>
-                <span class="card-iva">IVA INCLUSA</span>
-              </div>
-              <button class="card-details">
-                <span>Dettagli</span>
-                <span class="icon-arrow">
-                  <span aria-hidden="true">
-                    <img
-                      src="resources/arrow-right.svg"
-                      alt="Arrow Right icon"
-                      width="30"
-                      height="30"
-                    />
-                  </span>
-                </span>
-              </button>
-            </div>
-          </article>
+                <article class="card">
+                    <div class="card-image">
+                        <img src="resources/screenshot.jpg" alt="3 WINES EXPERIENCE" />
+                    </div>
 
-          <article class="card">
-            <div class="card-image">
-              <img src="resources/screenshot.png" alt="3 WINES EXPERIENCE" />
-            </div>
+                    <div class="card-info">
+                            <div class="card-icons">
+                                <span class="icon-glass" title="Wine Tasting">
+                                    <img src="resources/glass.svg" alt="Wine Glass Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-fork" title="Wine Tasting">
+                                    <img src="resources/fork.svg" alt="Fork Knife Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-clock" title="Duration">
+                                    <img src="resources/clock.svg" alt="Clock Icon" width="20" height="20" />
+                                    <span class="card-duration">60’</span>
+                                </span>
+                            </div>
 
-            <div class="card-info">
-              <div class="card-icons">
-                <span class="icon-glass" title="Wine Tasting">
-                  <img
-                    src="resources/glass.svg"
-                    alt="Wine Glass Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-fork" title="Wine Tasting">
-                  <img
-                    src="resources/fork.svg"
-                    alt="Fork Knife Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-clock" title="Duration">
-                  <img
-                    src="resources/clock.svg"
-                    alt="Clock Icon"
-                    width="20"
-                    height="20"
-                  />
-                  <span class="card-duration">90’</span>
-                </span>
-              </div>
+                            <h3 class="card-title">3 WINES EXPERIENCE</h3>
+                            <hr class="card-divider" />
+                        <p class="card-description">
+                            Degustazione di tre vini al Rifugio del Vino e visita
+                        </p>
+                        <div class="price">
+                            <span class="card-prezzo">PREZZO</span>
+                            <div class="card-price-row">
+                                <span class="card-amount">€25,00 a persona</span>
+                                <span class="card-iva">IVA INCLUSA</span>
+                            </div>
+                        </div>
+                        <button class="card-details">
+                            <span>Dettagli</span>
+                            <span class="icon-arrow">
+                                <span aria-hidden="true">
+                                    <img src="resources/arrow-right.svg" alt="Arrow Right icon" width="30"
+                                        height="30" />
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                </article>
 
-              <h3 class="card-title">5 WINES EXPERIENCE</h3>
-              <hr class="card-divider" />
-              <p class="card-description">
-                Degustazione di 5 vini del territorio presso il rifugio dei vini
-                in cantina e barricaia
-              </p>
-              <span class="card-prezzo">PREZZO</span>
-              <div class="card-price-row">
-                <span class="card-amount">€34,00 a persona</span>
-                <span class="card-iva">IVA INCLUSA</span>
-              </div>
-              <button class="card-details">
-                <span>Dettagli</span>
-                <span class="icon-arrow">
-                  <span aria-hidden="true">
-                    <img
-                      src="resources/arrow-right.svg"
-                      alt="Arrow Right icon"
-                      width="30"
-                      height="30"
-                    />
-                  </span>
-                </span>
-              </button>
-            </div>
-          </article>
+                <article class="card">
+                    <div class="card-image">
+                        <img src="resources/screenshot.jpg" alt="3 WINES EXPERIENCE" />
+                    </div>
 
-          <article class="card">
-            <div class="card-image">
-              <img src="resources/screenshot.png" alt="3 WINES EXPERIENCE" />
-            </div>
+                    <div class="card-info">
+                            <div class="card-icons">
+                                <span class="icon-glass" title="Wine Tasting">
+                                    <img src="resources/glass.svg" alt="Wine Glass Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-fork" title="Wine Tasting">
+                                    <img src="resources/fork.svg" alt="Fork Knife Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-clock" title="Duration">
+                                    <img src="resources/clock.svg" alt="Clock Icon" width="20" height="20" />
+                                    <span class="card-duration">90’</span>
+                                </span>
+                            </div>
 
-            <div class="card-info">
-              <div class="card-icons">
-                <span class="icon-glass" title="Wine Tasting">
-                  <img
-                    src="resources/glass.svg"
-                    alt="Wine Glass Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-fork" title="Wine Tasting">
-                  <img
-                    src="resources/fork.svg"
-                    alt="Fork Knife Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-clock" title="Duration">
-                  <img
-                    src="resources/clock.svg"
-                    alt="Clock Icon"
-                    width="20"
-                    height="20"
-                  />
-                  <span class="card-duration">90’</span>
-                </span>
-              </div>
+                            <h3 class="card-title">TOP WINES EXPERIENCE</h3>
+                            <hr class="card-divider" />
+                        <p class="card-description">
+                            Degustazione di 5 vini di ala qualità accompagnati da
+un tagliere della gastronomia locale e visita alla
+cantina e barricaia             </p>
+                        <div class="price">
+                            <span class="card-prezzo">PREZZO</span>
+                            <div class="card-price-row">
+                                <span class="card-amount">€65,00 a persona</span>
+                                <span class="card-iva">IVA INCLUSA</span>
+                            </div>
+                        </div>
+                        <button class="card-details">
+                            <span>Dettagli</span>
+                            <span class="icon-arrow">
+                                <span aria-hidden="true">
+                                    <img src="resources/arrow-right.svg" alt="Arrow Right icon" width="30"
+                                        height="30" />
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                </article>
 
-              <h3 class="card-title">WINE AND CHEESE EXPERIENCE</h3>
-              <hr class="card-divider" />
-              <p class="card-description">
-                Degustazione di 5 vini selezionati in abbinamento a 6 formaggi
-                locali e visita alla cantina e barricaia
-              </p>
-              <span class="card-prezzo">PREZZO</span>
-              <div class="card-price-row">
-                <span class="card-amount">€45.00 a persona</span>
-                <span class="card-iva">IVA INCLUSA</span>
-              </div>
-              <button class="card-details">
-                <span>Dettagli</span>
-                <span class="icon-arrow">
-                  <span aria-hidden="true">
-                    <img
-                      src="resources/arrow-right.svg"
-                      alt="Arrow Right icon"
-                      width="30"
-                      height="30"
-                    />
-                  </span>
-                </span>
-              </button>
-            </div>
-          </article>
+                <article class="card">
+                    <div class="card-image">
+                        <img src="resources/screenshot.jpg" alt="3 WINES EXPERIENCE" />
+                    </div>
 
-          <article class="card">
-            <div class="card-image">
-              <img src="resources/screenshot.png" alt="3 WINES EXPERIENCE" />
-            </div>
+                    <div class="card-info">
+                            <div class="card-icons">
+                                <span class="icon-glass" title="Wine Tasting">
+                                    <img src="resources/glass.svg" alt="Wine Glass Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-fork" title="Wine Tasting">
+                                    <img src="resources/fork.svg" alt="Fork Knife Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-clock" title="Duration">
+                                    <img src="resources/clock.svg" alt="Clock Icon" width="20" height="20" />
+                                    <span class="card-duration">90’</span>
+                                </span>
+                            </div>
 
-            <div class="card-info">
-              <div class="card-icons">
-                <span class="icon-glass" title="Wine Tasting">
-                  <img
-                    src="resources/glass.svg"
-                    alt="Wine Glass Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-fork" title="Wine Tasting">
-                  <img
-                    src="resources/fork.svg"
-                    alt="Fork Knife Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-clock" title="Duration">
-                  <img
-                    src="resources/clock.svg"
-                    alt="Clock Icon"
-                    width="20"
-                    height="20"
-                  />
-                  <span class="card-duration">100’</span>
-                </span>
-              </div>
+                            <h3 class="card-title">WINE AND CHEESE EXPERIENCE</h3>
+                            <hr class="card-divider" />
+                        <p class="card-description">
+Degustazione di 5 vini selezionati in abbinamento a 6
+formaggi locali e visita alla cantina e barricaia                        </p>
+                        <div class="price">
+                            <span class="card-prezzo">PREZZO</span>
+                            <div class="card-price-row">
+                                <span class="card-amount">€45,00 a persona</span>
+                                <span class="card-iva">IVA INCLUSA</span>
+                            </div>
+                        </div>
+                        <button class="card-details">
+                            <span>Dettagli</span>
+                            <span class="icon-arrow">
+                                <span aria-hidden="true">
+                                    <img src="resources/arrow-right.svg" alt="Arrow Right icon" width="30"
+                                        height="30" />
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                </article>
 
-              <h3 class="card-title">TOP WINES EXPERIENCE</h3>
-              <hr class="card-divider" />
-              <p class="card-description">
-                Degustazione di 5 vini di ala qualità accompagnati da un
-                tagliere della gastronomia locale e visita alla cantina e
-                barricaia
-              </p>
-              <span class="card-prezzo">PREZZO</span>
-              <div class="card-price-row">
-                <span class="card-amount">€65,00 a persona</span>
-                <span class="card-iva">IVA INCLUSA</span>
-              </div>
-              <button class="card-details">
-                <span>Dettagli</span>
-                <span class="icon-arrow">
-                  <span aria-hidden="true">
-                    <img
-                      src="resources/arrow-right.svg"
-                      alt="Arrow Right icon"
-                      width="30"
-                      height="30"
-                    />
-                  </span>
-                </span>
-              </button>
-            </div>
-          </article>
+                <article class="card">
+                    <div class="card-image">
+                        <img src="resources/screenshot.jpg" alt="3 WINES EXPERIENCE" />
+                    </div>
 
-          <article class="card">
-            <div class="card-image">
-              <img src="resources/screenshot.png" alt="3 WINES EXPERIENCE" />
-            </div>
+                    <div class="card-info">
+                            <div class="card-icons">
+                                <span class="icon-glass" title="Wine Tasting">
+                                    <img src="resources/glass.svg" alt="Wine Glass Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-fork" title="Wine Tasting">
+                                    <img src="resources/fork.svg" alt="Fork Knife Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-clock" title="Duration">
+                                    <img src="resources/clock.svg" alt="Clock Icon" width="20" height="20" />
+                                    <span class="card-duration">100’</span>
+                                </span>
+                            </div>
 
-            <div class="card-info">
-              <div class="card-icons">
-                <span class="icon-glass" title="Wine Tasting">
-                  <img
-                    src="resources/glass.svg"
-                    alt="Wine Glass Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-fork" title="Wine Tasting">
-                  <img
-                    src="resources/fork.svg"
-                    alt="Fork Knife Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-clock" title="Duration">
-                  <img
-                    src="resources/clock.svg"
-                    alt="Clock Icon"
-                    width="20"
-                    height="20"
-                  />
-                  <span class="card-duration">120’</span>
-                </span>
-              </div>
+                            <h3 class="card-title">TOP WINES EXPERIENCE</h3>
+                            <hr class="card-divider" />
+                        <p class="card-description">
+Degustazione di 5 vini di ala qualità accompagnati da
+un tagliere della gastronomia locale e visita alla
+cantina e barricaia                        </p>
+                        <div class="price">
+                            <span class="card-prezzo">PREZZO</span>
+                            <div class="card-price-row">
+                                <span class="card-amount">€65,00 a persona</span>
+                                <span class="card-iva">IVA INCLUSA</span>
+                            </div>
+                        </div>
+                        <button class="card-details">
+                            <span>Dettagli</span>
+                            <span class="icon-arrow">
+                                <span aria-hidden="true">
+                                    <img src="resources/arrow-right.svg" alt="Arrow Right icon" width="30"
+                                        height="30" />
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                </article>
 
-              <h3 class="card-title">CÔTEAU LA TOUR EXPERIENCE</h3>
-              <hr class="card-divider" />
-              <p class="card-description">
-                Degustazione di 5 vini accompagnati da un tagliere della
-                gastronomia locale e visita in cantina e barricaia. Tour del
-                vigneto di Côteau e brindisi nella torre medievale
-              </p>
-              <span class="card-prezzo">PREZZO</span>
-              <div class="card-price-row">
-                <span class="card-amount">€75.00 a persona</span>
-                <span class="card-iva">IVA INCLUSA</span>
-              </div>
-              <button class="card-details">
-                <span>Dettagli</span>
-                <span class="icon-arrow">
-                  <span aria-hidden="true">
-                    <img
-                      src="resources/arrow-right.svg"
-                      alt="Arrow Right icon"
-                      width="30"
-                      height="30"
-                    />
-                  </span>
-                </span>
-              </button>
-            </div>
-          </article>
+                <article class="card">
+                    <div class="card-image">
+                        <img src="resources/screenshot.jpg" alt="3 WINES EXPERIENCE" />
+                    </div>
 
-          <article class="card">
-            <div class="card-image">
-              <img src="resources/screenshot.png" alt="3 WINES EXPERIENCE" />
-            </div>
+                    <div class="card-info">
+                            <div class="card-icons">
+                                <span class="icon-glass" title="Wine Tasting">
+                                    <img src="resources/glass.svg" alt="Wine Glass Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-fork" title="Wine Tasting">
+                                    <img src="resources/fork.svg" alt="Fork Knife Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-clock" title="Duration">
+                                    <img src="resources/clock.svg" alt="Clock Icon" width="20" height="20" />
+                                    <span class="card-duration">120’</span>
+                                </span>
+                            </div>
 
-            <div class="card-info">
-              <div class="card-icons">
-                <span class="icon-glass" title="Wine Tasting">
-                  <img
-                    src="resources/glass.svg"
-                    alt="Wine Glass Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-fork" title="Wine Tasting">
-                  <img
-                    src="resources/fork.svg"
-                    alt="Fork Knife Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-clock" title="Duration">
-                  <img
-                    src="resources/clock.svg"
-                    alt="Clock Icon"
-                    width="20"
-                    height="20"
-                  />
-                  <span class="card-duration">100'</span>
-                </span>
-              </div>
+                            <h3 class="card-title">CÔTEAU LA TOUR EXPERIENCE</h3>
+                            <hr class="card-divider" />
+                        <p class="card-description">
+Degustazione di 5 vini accompagnati da un tagliere
+della gastronomia locale e visita in cantina e barricaia.
+Tour del vigneto di Côteau e brindisi nella torre
+medievale                        </p>
+                        <div class="price">
+                            <span class="card-prezzo">PREZZO</span>
+                            <div class="card-price-row">
+                                <span class="card-amount">€75,00 a persona</span>
+                                <span class="card-iva">IVA INCLUSA</span>
+                            </div>
+                        </div>
+                        <button class="card-details">
+                            <span>Dettagli</span>
+                            <span class="icon-arrow">
+                                <span aria-hidden="true">
+                                    <img src="resources/arrow-right.svg" alt="Arrow Right icon" width="30"
+                                        height="30" />
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                </article>
 
-              <h3 class="card-title">WINEMAKER’S EXPERIENCE</h3>
-              <hr class="card-divider" />
-              <p class="card-description">
-                Scopri il mondo, raccontato dal nostro enologo Rafaele, dai
-                vigneti alla cantina.
-              </p>
-              <span class="card-prezzo">PREZZO</span>
-              <div class="card-price-row">
-                <span class="card-amount">€90.00 a persona</span>
-                <span class="card-iva">IVA INCLUSA</span>
-              </div>
-              <button class="card-details">
-                <span>Dettagli</span>
-                <span class="icon-arrow">
-                  <span aria-hidden="true">
-                    <img
-                      src="resources/arrow-right.svg"
-                      alt="Arrow Right icon"
-                      width="30"
-                      height="30"
-                    />
-                  </span>
-                </span>
-              </button>
-            </div>
-          </article>
 
-          <article class="card">
-            <div class="card-image">
-              <img src="resources/screenshot.png" alt="3 WINES EXPERIENCE" />
-            </div>
+                <article class="card">
+                    <div class="card-image">
+                        <img src="resources/screenshot.jpg" alt="3 WINES EXPERIENCE" />
+                    </div>
 
-            <div class="card-info">
-              <div class="card-icons">
-                <span class="icon-glass" title="Wine Tasting">
-                  <img
-                    src="resources/glass.svg"
-                    alt="Wine Glass Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-fork" title="Wine Tasting">
-                  <img
-                    src="resources/fork.svg"
-                    alt="Fork Knife Icon"
-                    width="20"
-                    height="20"
-                  />
-                </span>
-                <span class="icon-clock" title="Duration">
-                  <img
-                    src="resources/clock.svg"
-                    alt="Clock Icon"
-                    width="20"
-                    height="20"
-                  />
-                  <span class="card-duration">90'</span>
-                </span>
-              </div>
+                    <div class="card-info">
+                            <div class="card-icons">
+                                <span class="icon-glass" title="Wine Tasting">
+                                    <img src="resources/glass.svg" alt="Wine Glass Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-fork" title="Wine Tasting">
+                                    <img src="resources/fork.svg" alt="Fork Knife Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-clock" title="Duration">
+                                    <img src="resources/clock.svg" alt="Clock Icon" width="20" height="20" />
+                                    <span class="card-duration">100’</span>
+                                </span>
+                            </div>
 
-              <h3 class="card-title">CÔTEAU LA TOUR EXPERIENCE</h3>
-              <hr class="card-divider" />
-              <p class="card-description">
-                Degustazione di 5 vini accompagnati da un tagliere della
-                gastronomia locale e visita in cantina e barricaia. Tour del
-                vigneto di Côteau e brindisi nella torre medievale
-              </p>
-              <span class="card-prezzo">PREZZO</span>
-              <div class="card-price-row">
-                <span class="card-amount">A parire da €346,00</span>
-                <span class="card-iva">IVA INCLUSA</span>
-              </div>
-              <button class="card-details">
-                <span>Dettagli</span>
-                <span class="icon-arrow">
-                  <span aria-hidden="true">
-                    <img
-                      src="resources/arrow-right.svg"
-                      alt="Arrow Right icon"
-                      width="30"
-                      height="30"
-                    />
-                  </span>
-                </span>
-              </button>
-            </div>
-          </article>
-        </section>
-      </div>
+                            <h3 class="card-title">WINEMAKER’S EXPERIENCE</h3>
+                            <hr class="card-divider" />
+                        <p class="card-description">
+Scopri il mondo, raccontato dal nostro enologo
+Rafaele, dai vigneti alla cantina.                        </p>
+                        <div class="price">
+                            <span class="card-prezzo">PREZZO</span>
+                            <div class="card-price-row">
+                                <span class="card-amount">€90,00 a persona</span>
+                                <span class="card-iva">IVA INCLUSA</span>
+                            </div>
+                        </div>
+                        <button class="card-details">
+                            <span>Dettagli</span>
+                            <span class="icon-arrow">
+                                <span aria-hidden="true">
+                                    <img src="resources/arrow-right.svg" alt="Arrow Right icon" width="30"
+                                        height="30" />
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-image">
+                        <img src="resources/screenshot.jpg" alt="3 WINES EXPERIENCE" />
+                    </div>
+
+                    <div class="card-info">
+                            <div class="card-icons">
+                                <span class="icon-glass" title="Wine Tasting">
+                                    <img src="resources/glass.svg" alt="Wine Glass Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-fork" title="Wine Tasting">
+                                    <img src="resources/fork.svg" alt="Fork Knife Icon" width="20" height="20" />
+                                </span>
+                                <span class="icon-clock" title="Duration">
+                                    <img src="resources/clock.svg" alt="Clock Icon" width="20" height="20" />
+                                    <span class="card-duration">90’</span>
+                                </span>
+                            </div>
+
+                            <h3 class="card-title">CÔTEAU LA TOUR EXPERIENCE</h3>
+                            <hr class="card-divider" />
+                        <p class="card-description">
+Degustazione di 5 vini accompagnati da un tagliere
+della gastronomia locale e visita in cantina e barricaia.
+Tour del vigneto di Côteau e brindisi nella torre
+medievale                        </p>
+                        <div class="price">
+                            <span class="card-prezzo">PREZZO</span>
+                            <div class="card-price-row">
+                                <span class="card-amount">A parire da €346,00</span>
+                                <span class="card-iva">IVA INCLUSA</span>
+                            </div>
+                        </div>
+                        <button class="card-details">
+                            <span>Dettagli</span>
+                            <span class="icon-arrow">
+                                <span aria-hidden="true">
+                                    <img src="resources/arrow-right.svg" alt="Arrow Right icon" width="30"
+                                        height="30" />
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                </article>
+
+
+
+
+            </section>
+        </div>
     </main>
-  </body>
+</body>
+
 </html>

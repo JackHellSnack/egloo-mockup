@@ -1,0 +1,95 @@
+/*abstracts and variables*/
+
+
+@use "vars";
+@use "fonts";
+
+/* site components */
+
+@use "header";
+@use "main";
+@use "cards";
+
+
+/* 
+    Responsive Container Sizes 
+*/
+
+.main-nav,
+.container {
+  max-width: 1536px * 1;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .main-nav,
+  .container {
+    max-width: 1280px * 1;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .main-nav,
+  .container {
+    max-width: 1024px * 1;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px * 1;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+  }
+
+}
+
+/* md */
+@media (max-width: 768px) {
+  .main-nav,
+  .container {
+    max-width: 640px * 1;
+  }
+
+    .logo-container {
+    width: 30%;
+  }
+
+  .card-wide {
+    grid-column: span 2;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .main-nav,
+  .container {
+    max-width: 475px * 1;
+  }
+
+  .card-wide {
+    grid-column: span 2;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .main-nav,
+  .container {
+    padding: 0.5rem;
+
+  }
+  .card-wide {
+    grid-column: span 2;
+  }
+}

@@ -1,0 +1,124 @@
+@use "vars";
+
+header {
+  background: vars.$secondary-color;
+}
+
+/* navigation */
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+}
+
+.nav-mobile {
+  display: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  flex-grow: 1;
+  flex-basis: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-left {
+  place-content: flex-start;
+}
+
+.nav-right {
+  place-content: flex-end;
+}
+
+.logo-container {
+  width: 13%;
+}
+
+.language-picker {
+  margin-left: 2rem;
+}
+
+.main-nav a,
+.main-nav select {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.98rem;
+  color: #111;
+  text-decoration: none;
+  position: relative;
+  padding: 0.2em 0.5em;
+}
+
+.main-nav .dropdown {
+  position: relative;
+}
+
+.main-nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: #f6f6f6;
+  min-width: 180px;
+  padding: 0.5em 0;
+  z-index: 10;
+}
+
+.main-nav .dropdown-big {
+  right: 0;
+  left: auto;
+}
+
+.main-nav .dropdown:hover > .dropdown-menu,
+.main-nav .dropdown:focus-within > .dropdown-menu {
+  display: block;
+}
+
+.main-nav .dropdown-menu li {
+  width: 100%;
+}
+
+.main-nav .dropdown-menu a {
+  display: block;
+  width: 100%;
+  padding: 0.6em 1.2em;
+  color: #111;
+  font-size: 0.95rem;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+}
+
+.main-nav .dropdown-menu a:hover,
+.main-nav .dropdown-menu a:focus {
+  background: #f8f6f2;
+}
+
+.earth-icon {
+  font-size: 1.1em;
+  margin-right: 0.2em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.arrow-down {
+  width: 8px;
+  height: 8px;
+  vertical-align: super;
+  opacity: 0.5;
+}
